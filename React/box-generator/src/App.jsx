@@ -9,7 +9,6 @@ function App() {
   const sendArray = (newColor) => {
     setcolorArr([...colorArr, newColor]);
   }
-
   return (
     <>
       <MessageForm onSubmit={sendArray} />
@@ -17,6 +16,6 @@ function App() {
     </>
   );
 }
-
 export default App;
+
 

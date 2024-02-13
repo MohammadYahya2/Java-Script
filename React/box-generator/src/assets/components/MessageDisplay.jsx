@@ -2,7 +2,7 @@ import react, { useState } from 'react';
 
 
 const MessageDisplay = (props) => {
-    const colorArray = [...props.colorArray]
+    const colorArray = props.colorArray
 
 
     return (
